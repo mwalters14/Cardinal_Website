@@ -283,6 +283,10 @@ header {
     
 }
 
+.section-partners .box {
+    margin-top: 50px;
+}
+
 .section-partners p {
     word-spacing: 1px;
     letter-spacing: 2px;
@@ -310,6 +314,7 @@ header {
 
 .visa-visa-img {
     height: 70px;
+    margin-left: 30%;
 }
 
 .cardinal-box p {
