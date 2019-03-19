@@ -273,24 +273,19 @@ header {
 /* ----------------------------------------------- */
 /* PARTNERS */
 /* ----------------------------------------------- */
-.section-partners {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.2),rgba(95, 95, 95, 0.9)), url(img/perry-grone-732606-unsplash.jpg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-}
+.section-partners {}
 
 
 .section-partners h2 {
-    word-spacing: 20px;
-    letter-spacing: 2px;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    
     
 }
 
 .section-partners p {
     word-spacing: 1px;
     letter-spacing: 2px;
-    color: #fff;
     margin-top: 20px
 }
 
@@ -326,24 +321,56 @@ header {
     line-height: 146%
 }
 
-.blue-box {
-    background-color: #192061;
-    position: relative;
-    display: inline-block;
+
+
+/* ----------------------------------------------- */
+/* CUSTOMERS */
+/* ----------------------------------------------- */
+
+.partners {
+    padding: 50px;
+}
+
+.partners-showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.partners-showcase li {
+    display: block;
     float: left;
+    width: 25%;
+}
+
+.partner-photo {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    margin-right: 20px;
+    
+    
+}
+
+.partner-photo img {
+    max-width:80%;
     height: 200px;
-    width: 4%;
-    opacity: 0.4;
+    
 }
 
-.red-box {
-    display: inline-block;
-    float: right;
-    width: 4%;
-    background-color: #b82617;
-    opacity: 0.4;
+.AE {
+    margin-left: 14%;
 }
 
+.customers h2:after {
+    display: block;
+    height: 1px;
+    background:linear-gradient(to right, rgb(214, 214, 214) 100%, #000 100%);
+    content: " ";
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
 /* ----------------------------------------------- */
 /* ABOUT */
 /* ----------------------------------------------- */
