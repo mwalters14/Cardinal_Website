@@ -17,6 +17,7 @@ body {
     font-size: 20px;
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 .clearfix {zoom: 1;}
@@ -116,7 +117,7 @@ h2:after {
     width: 100%;
     position: fixed;
     top: 0;
-     z-index:1
+    z-index:1;
 }
 
 .main-nav-float {
@@ -233,13 +234,13 @@ header {
 }
 
 /* ----------------------------------------------- */
-/* PRODUCTS */
+/* AUTHENTICATION */
 /* ----------------------------------------------- */
-.section-products {
+.section-authentication {
     background-color: rgba(232, 232, 232, 0.62);
 }
 
-.section-products h3 {
+.section-authentication h3 {
     margin-bottom: 10px;
 }
 
@@ -273,9 +274,6 @@ header {
 /* ----------------------------------------------- */
 /* PARTNERS */
 /* ----------------------------------------------- */
-.section-partners {}
-
-
 .section-partners h2 {
     word-spacing: 10px;
     letter-spacing: 5px;
@@ -326,6 +324,10 @@ header {
     line-height: 146%
 }
 
+.power-of-cardinal-photo img {
+    height: 300px;
+    margin-left: 11%;
+}
 
 
 /* ----------------------------------------------- */
@@ -376,6 +378,7 @@ header {
     margin-top: 50px;
     margin-bottom: 70px;
 }
+
 /* ----------------------------------------------- */
 /* ABOUT */
 /* ----------------------------------------------- */
@@ -477,6 +480,9 @@ header {
 /* ----------------------------------------------- */
 /* FORM */
 /* ----------------------------------------------- */
+.section-form {
+    background-color: rgba(232, 232, 232, 0.62);
+}
 
 .contact-form {
     width: 60%;
