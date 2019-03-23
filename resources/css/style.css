@@ -157,6 +157,10 @@ header {
     background-attachment: fixed;
 }
 
+.cardinal-visa-color {
+    color: linear-gradient(#b82617 100%, #192061 100%);
+}
+
 .hero-text-box {
     position: absolute;
     width: 1140px;
