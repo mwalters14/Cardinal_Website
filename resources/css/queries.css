@@ -1,0 +1,78 @@
+/* Big tablet to 1200px (width smaller than 1140px) */
+@media only screen and (max-width: 1200px){
+    section {padding: 60px 0;}
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+    
+    .row {  padding: 0 2%; }
+    
+    h2 {
+        font-size: 160%;
+        margin-top: -2%;
+    }
+    
+    .long-copy {
+        font-size: 85%;
+        line-height: 165%;
+    }
+    
+    
+    .section-get-started .btn-ghost {
+        margin-top: -3%;
+    }
+    
+    .section-get-started h2 {
+        font-size: 100%;
+    }
+    
+    .box p {
+        font-size: 85%;
+    }
+    
+    .section-partners p {
+        word-spacing: 1px;
+        letter-spacing: 2px;
+        font-size: 80%;
+    }
+    
+    .visa-visa-img {
+        height: 50px;
+        margin-left: 30%;
+    }
+    
+    .cardinal-cardinal-img {
+        display: inline-block;
+        margin-left: 38%;
+        height: 50px;
+    }
+    
+    .power-of-cardinal-photo img {
+        height: 250px;
+        margin-left: 16%;
+    }
+    
+    .section-partners {
+        margin-bottom: -50px;
+    }
+    
+    .card-payment-img {
+        height: 400px;
+        width: 600px;
+        padding-right: 55px;
+    }
+    
+    .partners-showcase {
+        padding-left: 2%;
+    }
+
+    .partner-photo img {
+        max-width: 75%;
+        height: 200px;
+    }
+
+    .AE {
+        margin-left: 2%;
+    }
+}

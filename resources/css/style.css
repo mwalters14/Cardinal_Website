@@ -52,8 +52,14 @@ section {
 
 .products-text {
     line-height: 145%;
-    width: 70%;
-    margin-left: 20%;
+    width: 80%;
+    margin-left: 14.5%;
+    font-size: 110%;
+}
+
+.long-copy {
+    line-height: 145%;
+    width: 100%;
 }
 
 .box p {
@@ -333,54 +339,43 @@ header {
     margin-left: 11%;
 }
 
-
 /* ----------------------------------------------- */
-/* CUSTOMERS */
+/* GET STARTED */
 /* ----------------------------------------------- */
-
-.partners {
-    padding: 50px;
-}
-
-.partners-showcase {
-    list-style: none;
-    width: 100%;
-}
-
-.partners-showcase li {
-    display: block;
-    float: left;
-    width: 25%;
-}
-
-.partner-photo {
-    width: 100%;
-    margin: 0;
-    overflow: hidden;
-    margin-right: 20px;
-    
-    
-}
-
-.partner-photo img {
-    max-width:80%;
+.section-get-started {
+    background-color: #192061;
     height: 200px;
-    
 }
 
-.AE {
-    margin-left: 14%;
+.section-get-started h2 {
+    color: #fff;
+    margin-top: -2.5%;
+    text-transform: none;
+    font-size: 120%;
+    margin-left: 4.5%;
+    width: 90%;
 }
-
-.customers h2:after {
+.section-get-started h2:after {
     display: block;
-    height: 1px;
-    background:linear-gradient(to right, rgb(214, 214, 214) 100%, #000 100%);
+    height: 0.0px;
+    background:linear-gradient(to right, rgb(165, 165, 165) 100%, #000 50%);
     content: " ";
     width: 1000px;
     margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 70px;
+}
+
+.section-get-started .btn-ghost {
+    background-color: #fff;
+    width: 200px;
+    margin-left: 43%;
+    margin-top: -3%;
+    color: #192061;
+    border-radius: 0%;
+    border: 1px solid #192061;
+    display: flex;
+    justify-content: center;
 }
 
 /* ----------------------------------------------- */
@@ -414,6 +409,7 @@ header {
     width: 700px;
     background-position: cover;
     background-attachment: fixed;
+    padding-right: 45px;
 }
 
 .section-about .logo-about {
@@ -443,42 +439,53 @@ header {
     height: 630px
 }
 
+
+
 /* ----------------------------------------------- */
-/* GET STARTED */
+/* CUSTOMERS */
 /* ----------------------------------------------- */
-.section-get-started {
-    background-color: #192061;
-    height: 200px;
+
+.partners {
+    padding: 50px;
 }
 
-.section-get-started h2 {
-    color: #fff;
-    margin-top: -2.5%;
-    text-transform: none;
-    font-size: 120%;
-    margin-left: 60px;
+.partners-showcase {
+    list-style: none;
+    width: 100%;
 }
-.section-get-started h2:after {
+
+.partners-showcase li {
     display: block;
-    height: 0.0px;
-    background:linear-gradient(to right, rgb(165, 165, 165) 100%, #000 50%);
+    float: left;
+    width: 25%;
+}
+
+.partner-photo {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.partner-photo img {
+    max-width:80%;
+    height: 200px;
+    
+}
+
+.AE {
+    margin-left: 6%;
+}
+
+.customers h2:after {
+    display: block;
+    height: 1px;
+    background:linear-gradient(to right, rgb(214, 214, 214) 100%, #000 100%);
     content: " ";
     width: 1000px;
     margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 70px;
-}
-
-.section-get-started .btn-ghost {
-    background-color: #fff;
-    width: 200px;
-    margin-left: 45%;
-    margin-top: -1.5%;
-    color: #192061;
-    border-radius: 0%;
-    border: 1px solid #192061;
-    display: flex;
-    justify-content: center;
 }
 
 /* ----------------------------------------------- */
