@@ -152,11 +152,6 @@ section h2 {
 .main-nav li a:active {
     border-bottom: 3px solid #192061;
 }
-
-.nav-holder {
-    visibility: hidden;
-    margin-bottom: -1.2%;
-}
 /* ----------------------------------------------- */
 /* HEADER */
 /* ----------------------------------------------- */

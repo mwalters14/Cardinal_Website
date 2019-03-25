@@ -1,6 +1,6 @@
 /* Big tablet to 1200px (width smaller than 1140px) */
 @media only screen and (max-width: 1200px){
-    section {padding: 60px 0;}
+    section {padding: 40px 0;}
     .hero-text-box {
         width: 100%;
         padding: 0 2%;
@@ -34,7 +34,7 @@
     .section-partners p {
         word-spacing: 1px;
         letter-spacing: 2px;
-        font-size: 80%;
+        font-size: 85%;
     }
     
     .visa-visa-img {
