@@ -39,7 +39,7 @@ body {
 }
 
 section {
-    padding: 80px 0;
+    padding: 40px 0;
 }
 
 .box {
@@ -99,10 +99,12 @@ h2:after {
     background:linear-gradient(to right, #b82617 50%, #192061 50%);
     content: " ";
     width: 290px;
-    margin: 0 auto;
-    margin-top: 30px;
+    margin: 20px auto;
 }
 
+section h2 {
+    margin: auto;
+}
 /* ----------------------------------------------- */
 /* Navigation */
 /* ----------------------------------------------- */
@@ -151,6 +153,10 @@ h2:after {
     border-bottom: 3px solid #192061;
 }
 
+.nav-holder {
+    visibility: hidden;
+    margin-bottom: -1.2%;
+}
 /* ----------------------------------------------- */
 /* HEADER */
 /* ----------------------------------------------- */
@@ -243,6 +249,11 @@ header {
     background-color: #192061;
 }
 
+.section-get-started .btn-ghost:hover,
+.section-get-started .btn-ghost:active {
+    background-color: #FCB70A;
+}
+
 /* ----------------------------------------------- */
 /* AUTHENTICATION */
 /* ----------------------------------------------- */
@@ -284,6 +295,7 @@ header {
 /* ----------------------------------------------- */
 /* PARTNERS */
 /* ----------------------------------------------- */
+
 .section-partners h2 {
     word-spacing: 10px;
     letter-spacing: 5px;
@@ -335,8 +347,8 @@ header {
 }
 
 .power-of-cardinal-photo img {
-    height: 300px;
-    margin-left: 11%;
+    height: 270px;
+    margin-left: 16%;
 }
 
 /* ----------------------------------------------- */
@@ -349,11 +361,10 @@ header {
 
 .section-get-started h2 {
     color: #fff;
-    margin-top: -2.5%;
     text-transform: none;
     font-size: 120%;
-    margin-left: 4.5%;
-    width: 90%;
+    margin: auto;
+    width: 70%;
 }
 .section-get-started h2:after {
     display: block;
@@ -369,13 +380,14 @@ header {
 .section-get-started .btn-ghost {
     background-color: #fff;
     width: 200px;
-    margin-left: 43%;
-    margin-top: -3%;
+    margin-left: 45%;
+    margin-top: -2%;
     color: #192061;
     border-radius: 0%;
     border: 1px solid #192061;
     display: flex;
     justify-content: center;
+    margin: -2.2% auto;
 }
 
 /* ----------------------------------------------- */
