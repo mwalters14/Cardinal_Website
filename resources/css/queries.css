@@ -6,6 +6,11 @@
         padding: 0 2%;
     }
     
+    .logo {
+        height: 73px;
+        margin-top: 1.1%;
+        margin-left: 25px;
+    }
     .row {  padding: 0 2%; }
     
     h2 {
@@ -50,7 +55,8 @@
     
     .power-of-cardinal-photo img {
         height: 250px;
-        margin-left: 16%;
+        margin-left: 20%;
+        padding-bottom: 3%
     }
     
     .section-partners {
@@ -62,17 +68,18 @@
         width: 600px;
         padding-right: 55px;
     }
-    
-    .partners-showcase {
-        padding-left: 2%;
-    }
+
 
     .partner-photo img {
-        max-width: 75%;
+        max-width: 100%;
         height: 200px;
     }
 
     .AE {
         margin-left: 2%;
+    }
+    
+    .partners-showcase li {
+        padding: 0 21px;
     }
 }
