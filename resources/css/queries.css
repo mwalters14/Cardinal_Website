@@ -83,3 +83,59 @@
         padding: 0 21px;
     }
 }
+
+
+@media only screen and (max-width: 1023px) {
+    section { padding: 30px 0}
+    body { font-size: 16px; }
+    
+    .section-get-started { height: 153px; }
+    .card-payment-box { max-width: 390px; }
+    .info-box { height: 235px; }
+    .happy-shopper-box {
+        max-height: 450px;
+        max-width: 340px;
+    }
+    
+    .partners-showcase { margin-top: -30px; }
+    
+    .partner-photo {
+        max-width: 350px;
+        max-height: 100px;
+        display: table-cell;
+        vertical-align: center;
+    }
+    
+    .partner-photo img {
+        margin-top: -20%;
+        padding: 15px;
+        transform: scale(0.8);
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .customers h2:after {
+        margin-top: 25px;
+        margin-bottom: 60px;
+    }
+    
+    .partner-photo {
+        width: 150px;
+        height: 100px;
+        padding: 5px;
+    }
+    
+    .partner-photo img {
+        margin: 1px;
+        padding: 5px
+        
+    }
+    
+    .partners-showcase li {
+        height: 220px
+    }
+    
+    .customers {
+        height: 500px;
+    }
+}
