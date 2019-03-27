@@ -324,11 +324,11 @@ header {
 .cardinal-cardinal-img {
     display: inline-block;
     margin-left: 38%;
-    height: 70px;
+    height: 50px;
 }
 
 .visa-visa-img {
-    height: 70px;
+    height: 50px;
     margin-left: 30%;
 }
 
@@ -366,23 +366,19 @@ header {
     height: 0.0px;
     background:linear-gradient(to right, rgb(165, 165, 165) 100%, #000 50%);
     content: " ";
-    width: 1000px;
-    margin: 0 auto;
-    margin-top: 50px;
-    margin-bottom: 70px;
 }
 
 .section-get-started .btn-ghost {
+    display: inline-block;
     background-color: #fff;
-    width: 200px;
-    margin-left: 45%;
-    margin-top: -2%;
+    width: 180px;
+    font-weight: 400;
     color: #192061;
     border-radius: 0%;
     border: 1px solid #192061;
     display: flex;
     justify-content: center;
-    margin: -2.2% auto;
+    margin: auto auto;
 }
 
 /* ----------------------------------------------- */
@@ -452,31 +448,40 @@ header {
 /* CUSTOMERS */
 /* ----------------------------------------------- */
 
-.partners {
-    padding: 50px;
+.customers .row {
+    margin: 0;
 }
 
 .partners-showcase {
     list-style: none;
-    width: 100%;
+    width: 100vw;
 }
 
 .partners-showcase li {
     display: block;
     float: left;
-    width: 25%;
+    width: 25vw;
+    height: 15vw;
+    
 }
 
 .partner-photo {
+    max-width: 400px;
+    max-height: 280px;
     width: 100%;
-    margin: 0;
+    height: 100%;
+    margin: 0 auto;
     overflow: hidden;
-    margin-right: 20px;
 }
 
 .partner-photo img {
-    max-width:80%;
-    height: 200px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    transform: scale(0.6);
+    text-align: center;
     
 }
 
