@@ -69,19 +69,7 @@
         max-width: 440px;
     }
 
-
-    .partner-photo img {
-        max-width: 100%;
-        height: 200px;
-    }
-
-    .AE {
-        margin-left: 2%;
-    }
     
-    .partners-showcase li {
-        padding: 0 21px;
-    }
 }
 
 
@@ -97,17 +85,16 @@
         max-width: 340px;
     }
     
-    .partners-showcase { margin-top: -30px; }
+    .partners-showcase { margin-top: -100px; }
     
     .partner-photo {
         max-width: 350px;
         max-height: 100px;
-        display: table-cell;
         vertical-align: center;
     }
     
     .partner-photo img {
-        margin-top: -20%;
+        margin-top: -10%;
         padding: 15px;
         transform: scale(0.8);
     }

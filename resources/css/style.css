@@ -46,6 +46,18 @@ section {
     padding: 1%;
 }
 
+/* COLORS */
+.cardinal-red {
+    color: #d63031;
+    font-weight: 320;
+}
+
+.visa-blue {
+    color:#192061;
+    font-weight: 320;
+}
+
+
 /* ----------------------------------------------- */
 /* Paragraphs */
 /* ----------------------------------------------- */
@@ -181,15 +193,6 @@ header {
     font-size: 100%;
     font-weight: 400;
 }
-.cardinal-red {
-    color: #d63031;
-    font-weight: 320;
-}
-
-.visa-blue {
-    color:#192061;
-    font-weight: 320;
-}
 
 /* ----------------------------------------------- */
 /* ICONS */
@@ -274,10 +277,6 @@ header {
     background-color: #192061;
 }
 
-.info-row {
-    
-}
-
 .info-box p {
     color: #fff;
     display: inline-block;
@@ -295,31 +294,17 @@ header {
 .section-partners h2 {
     word-spacing: 10px;
     letter-spacing: 5px;
-    
-    
 }
 
 .section-partners .box {
-    margin-top: 50px;
+    margin-top: 30px;
+    padding-bottom: 25px;
 }
 
 .section-partners p {
     word-spacing: 1px;
     letter-spacing: 2px;
     margin-top: 20px
-}
-
-
-.cardinal-box {
-    background-color: #b82617;
-    height: 500px;
-}
-
-.cardinal-box img {
-    display: inline-block;
-    height: 10px;
-    padding: 0;
-    margin: 0;
 }
 
 .cardinal-cardinal-img {
@@ -331,20 +316,6 @@ header {
 .visa-visa-img {
     height: 50px;
     margin-left: 30%;
-}
-
-.cardinal-box p {
-    color: #000;
-    font-weight:400;
-    letter-spacing: 1px;
-    word-spacing: 2px;
-    margin-top: 50px;
-    line-height: 146%
-}
-
-.power-of-cardinal-photo img {
-    height: 270px;
-    margin-left: 16%;
 }
 
 /* ----------------------------------------------- */
@@ -424,14 +395,6 @@ header {
     background-attachment: fixed;
 }
 
-.section-about .logo-about {
-    height: 50px;
-    float: left;
-    margin-top: 100px;
-    transform: rotate(270deg);
-    display: inline-block;
-    
-}
 
 .section-about .why-cardinal-paragraph,
 .let-us-worry-paragraph{
@@ -466,31 +429,40 @@ header {
 /* CUSTOMERS */
 /* ----------------------------------------------- */
 
+.customers {
+    max-height: 720px;
+    height: 90%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
 .customers .row {
     margin: 0;
+    padding: 0;
 }
 
 .partners-showcase {
-    list-style: none;
+    padding: 0;
+    margin: 0;
     width: 100vw;
 }
 
 .partners-showcase li {
     display: block;
     float: left;
-    width: 25vw;
-    height: 15vw;
-    margin-top: -15px;
+    max-height: 300px;
+    width: 25%;
+    height: 260px;
+    
     
 }
 
 .partner-photo {
     max-width: 400px;
     max-height: 215px;
-    width: 100%;
-    height: 100%;
-    margin: 0 auto;
-    display: table-cell;
+    width: 270px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
     overflow: hidden;
 }
 
