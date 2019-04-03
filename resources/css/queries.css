@@ -59,11 +59,6 @@
         margin-bottom: -50px;
     }
     
-    .card-payment-box {
-        max-width: 490px;
-        max-height: 550px;
-    }
-    
     .happy-shopper-box {
         max-height: 550px;
         max-width: 440px;
@@ -75,28 +70,29 @@
 
 @media only screen and (max-width: 1023px) {
     section { padding: 30px 0}
-    body { font-size: 16px; }
     
     .section-get-started { height: 153px; }
-    .card-payment-box { max-width: 390px; }
+    .card-payment-box {
+        height: 100%;
+    }
     .info-box { height: 235px; }
     .happy-shopper-box {
         max-height: 450px;
         max-width: 340px;
     }
     
-    .partners-showcase { margin-top: -100px; }
-    
     .partner-photo {
-        max-width: 350px;
-        max-height: 100px;
-        vertical-align: center;
+        width: 150px;
+        height: 100px;
+        padding: 1px;
     }
     
     .partner-photo img {
-        margin-top: -10%;
-        padding: 15px;
         transform: scale(0.8);
+    }
+    
+     .partners-showcase li {
+        height: 140px
     }
 }
 
@@ -106,23 +102,24 @@
         margin-bottom: 60px;
     }
     
-    .partner-photo {
-        width: 150px;
-        height: 100px;
-        padding: 5px;
-    }
+.card-payment-box {
+    width: 150%;
+    height: 110%;
+    overflow: hidden;
+    position: absolute;
+    left: 100%;
+    bottom: 1%;
+    padding-right: 35px;
+}
+
+.card-payment-img {
+    height: 100%;
+    width: 100%;
+    background-position: cover;
+    background-attachment: fixed;
+}
     
-    .partner-photo img {
-        margin: 1px;
-        padding: 5px
-        
-    }
-    
-    .partners-showcase li {
-        height: 220px
-    }
-    
-    .customers {
-        height: 500px;
+    .why-cardinal-paragraph {
+        position: relative;
     }
 }
