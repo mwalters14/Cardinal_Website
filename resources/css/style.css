@@ -286,6 +286,10 @@ header {
     text-align: center;
 }
 
+.info-row {
+    padding: 5px;
+}
+
 
 /* ----------------------------------------------- */
 /* PARTNERS */

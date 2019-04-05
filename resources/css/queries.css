@@ -71,7 +71,10 @@
 @media only screen and (max-width: 1023px) {
     section { padding: 30px 0}
     
-    .section-get-started { height: 153px; }
+    .section-get-started { 
+        height: 153px;
+        margin: 0px;
+    }
     .card-payment-box {
         height: 100%;
     }
@@ -93,6 +96,13 @@
     
      .partners-showcase li {
         height: 140px
+    }
+    
+    .section-get-started h2 {
+        color: #fff;
+        font-size: 105%;
+        margin: auto;
+        width: 80%;
     }
 }
 
@@ -121,5 +131,23 @@
     
     .why-cardinal-paragraph {
         position: relative;
+    }
+    
+    .section-get-started h2 {
+        font-size: 93%;
+        margin: auto;
+        width: 80%;
+    }
+    
+    .long-copy {
+        font-size: 90%;
+        margin: 0px 10px;
+        line-height: 27px;
+        
+    }
+    
+    .products-text {
+        width: 100%;
+        margin: 10px;
     }
 }
