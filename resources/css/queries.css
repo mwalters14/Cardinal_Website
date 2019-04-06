@@ -99,51 +99,136 @@
     }
     
     .section-get-started h2 {
-        color: #fff;
-        font-size: 105%;
+        font-size: 100%;
         margin: auto;
-        width: 80%;
+        width: 90%;
     }
 }
 
 @media only screen and (max-width: 767px) {
+/* ----------------------------------------------- */
+/* BASIC SETUP */
+/* ----------------------------------------------- */
+    section { padding: 30px 0; }
+    .col {width: 100%; }
+    .row,
+    .hero-text-box { padding: 0 4%; }    
+
+    .long-copy {
+        font-size: 90%;
+        margin: 0px 10px;
+        line-height: 27px;
+    }
+    
     .customers h2:after {
         margin-top: 25px;
         margin-bottom: 60px;
     }
     
-.card-payment-box {
-    width: 150%;
-    height: 110%;
-    overflow: hidden;
-    position: absolute;
-    left: 100%;
-    bottom: 1%;
-    padding-right: 35px;
-}
-
-.card-payment-img {
-    height: 100%;
-    width: 100%;
-    background-position: cover;
-    background-attachment: fixed;
-}
+/* ----------------------------------------------- */
+/* AUTHENTICATION */
+/* ----------------------------------------------- */
+    .info-box:first-child { margin-top: 30px; }
+    .partners-box { margin-bottom: 10px; }
     
-    .why-cardinal-paragraph {
-        position: relative;
-    }
-    
-    .section-get-started h2 {
-        font-size: 93%;
-        margin: auto;
+    .info-box p {
+        font-size: 100%;
+        padding-left: 150px;
         width: 80%;
     }
     
-    .long-copy {
+    .info-box {
+        margin: 0 auto;
+        margin-bottom: 10px;
+        height: 220px;
+    }
+    
+    .info-row {
+        margin: 0 auto;
+        padding: 0;
+    }
+    
+    .products-text {
+        width: 100%;
+        margin: 10px;
+    }
+    
+/* ----------------------------------------------- */
+/* CUSTOMERS */
+/* ----------------------------------------------- */
+    .partner-photo {
+        width: 120px;
+        height: 90px;
+    }
+    
+    .partner-photo img { transform: scale(0.7); }
+    .partners-showcase li { height: 135px; }
+    
+/* ----------------------------------------------- */
+/* ABOUT */
+/* ----------------------------------------------- */
+    .section-about h3 {
+        text-align: center;
+        margin: 10px;
+    }
+    
+    .happy-shopper { display: none; }
+    .card-payment-img { display: none; }
+    .why-cardinal-paragraph { position: relative; }
+    
+/* ----------------------------------------------- */
+/* GET STARTED */
+/* ----------------------------------------------- */
+    .section-get-started h2 {
         font-size: 90%;
-        margin: 0px 10px;
-        line-height: 27px;
-        
+        width: 95%;
+    }
+    
+    .section-get-started .btn-ghost {
+        margin-top: -7px;
+    }
+
+@media only screen and (max-width: 480px) {
+    section { padding: 25px 0; }
+    .contact-form {
+        width: 100%;
+    }
+    
+    .submit-btn {
+        text-align: center;
+    }
+    
+    .section-get-started h2 {
+        font-size: 90%;
+        width: 90%;
+    }
+
+    
+    /* ----------------------------------------------- */
+/* AUTHENTICATION */
+/* ----------------------------------------------- */
+    .info-box:first-child { 
+        margin-top: 30px; 
+        margin-left: 25px;
+    }
+    .partners-box { margin-bottom: 10px; }
+    
+    .info-box p {
+        font-size: 90%;
+        padding-left: 0px;
+        width: 100%;
+    }
+    
+    .info-box {
+        margin: 10px;
+        height: 200px;
+        width: 90%;
+        margin-left: 25px;
+    }
+    
+    .info-row {
+        margin: 0 auto;
+        padding: 0;
     }
     
     .products-text {
