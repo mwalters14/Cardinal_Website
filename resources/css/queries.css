@@ -1,37 +1,40 @@
-/* Big tablet to 1200px (width smaller than 1140px) */
+/*SCREEN WIDTH: 1200px */
 @media only screen and (max-width: 1200px){
-    section {padding: 40px 0;}
+    /* GENERAL */
+    section { padding: 40px 0; }
     body { font-size: 18px; }
-    .hero-text-box {
-        width: 100%;
-        padding: 0 2%;
+    .row { padding: 0 2%; }
+    .box p { font-size: 85%; }
+    .long-copy {
+        font-size: 85%;
+        line-height: 165%;
     }
-    
-    .logo {
-        height: 73px;
-        margin-top: 1.1%;
-        margin-left: 25px;
-    }
-    .row {  padding: 0 2%; }
     
     h2 {
         font-size: 160%;
         margin-top: -2%;
     }
     
-    .long-copy {
-        font-size: 85%;
-        line-height: 165%;
+    /* HEADING */
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
     }
     
+    /* NAVBAR */
+    .logo {
+        height: 73px;
+        margin-top: 1.1%;
+        margin-left: 25px;
+    }
+    
+    /* GET STARTED */
     .section-get-started h2 {
         font-size: 100%;
     }
     
-    .box p {
-        font-size: 85%;
-    }
-    
+    /* PARTNERS */
+    .section-partners { margin-bottom: -50px; }
     .section-partners p {
         word-spacing: 1px;
         letter-spacing: 2px;
@@ -49,36 +52,33 @@
         height: 40px;
     }
     
-    .power-of-cardinal-photo img {
-        height: 250px;
-        margin-left: 20%;
-        padding-bottom: 3%
-    }
-    
-    .section-partners {
-        margin-bottom: -50px;
-    }
-    
     .happy-shopper-box {
         max-height: 550px;
         max-width: 440px;
     }
-
-    
 }
 
-
+/* SCREEN WIDTH: 1023px */
 @media only screen and (max-width: 1023px) {
+    /* GENERAL */
     section { padding: 30px 0}
     
+    /* GET STARTED */
     .section-get-started { 
         height: 153px;
         margin: 0px;
     }
-    .card-payment-box {
-        height: 100%;
+    
+    .section-get-started h2 {
+        font-size: 100%;
+        margin: auto;
+        width: 90%;
     }
-    .info-box { height: 235px; }
+    
+    /* PARTNERS */
+    .card-payment-box { height: 100%; }
+    .partner-photo img { transform: scale(0.8); }
+    .partners-showcase li { height: 140px; }
     .happy-shopper-box {
         max-height: 450px;
         max-width: 340px;
@@ -90,25 +90,14 @@
         padding: 1px;
     }
     
-    .partner-photo img {
-        transform: scale(0.8);
-    }
-    
-     .partners-showcase li {
-        height: 140px
-    }
-    
-    .section-get-started h2 {
-        font-size: 100%;
-        margin: auto;
-        width: 90%;
-    }
+    /* AUTHENTICATION */
+    .info-box { height: 235px; }
 }
 
+/* SCREEN WIDTH: 767px */
 @media only screen and (max-width: 767px) {
-/* ----------------------------------------------- */
-/* BASIC SETUP */
-/* ----------------------------------------------- */
+
+    /* GENERAL */
     section { padding: 30px 0; }
     .col {width: 100%; }
     .row,
@@ -120,27 +109,24 @@
         line-height: 27px;
     }
     
-    .customers h2:after {
-        margin-top: 25px;
-        margin-bottom: 60px;
-    }
-    
-/* ----------------------------------------------- */
-/* AUTHENTICATION */
-/* ----------------------------------------------- */
+    /* AUTHENTICATION */
     .info-box:first-child { margin-top: 30px; }
     .partners-box { margin-bottom: 10px; }
     
     .info-box p {
-        font-size: 100%;
-        padding-left: 150px;
-        width: 80%;
+        font-size: 90%;
+        padding-left: 0px;
+        width: 100%;
     }
-    
+    .info-box:first-child { 
+        margin-top: 30px; 
+        margin-left: 35px;
+    }
     .info-box {
-        margin: 0 auto;
-        margin-bottom: 10px;
-        height: 220px;
+        margin: 10px;
+        height: 200px;
+        width: 90%;
+        margin-left: 35px;
     }
     
     .info-row {
@@ -153,60 +139,94 @@
         margin: 10px;
     }
     
-/* ----------------------------------------------- */
-/* CUSTOMERS */
-/* ----------------------------------------------- */
-    .partner-photo {
-        width: 120px;
-        height: 90px;
+    /* PARTNERS */
+    .visa-visa-img {
+        height: 40px;
+        margin-left: 33vw;
     }
     
+    .cardinal-cardinal-img {
+        display: inline-block;
+        margin-left: 40vw;
+        height: 40px;
+    }
+    
+
+    /* CUSTOMERS */
     .partner-photo img { transform: scale(0.7); }
     .partners-showcase li { height: 135px; }
+    .partner-photo {
+        width: 120px;
+        height: 140px;
+    }
+    .customers h2:after {
+        margin-top: 25px;
+        margin-bottom: 60px;
+    }
     
-/* ----------------------------------------------- */
-/* ABOUT */
-/* ----------------------------------------------- */
+    /* ABOUT */
+    .happy-shopper { display: none; }
+    .card-payment-img { display: none; }
+    .why-cardinal-paragraph { position: relative; }
+    .about-us-paragraph:after { margin-bottom: 30px; }
     .section-about h3 {
         text-align: center;
         margin: 10px;
     }
     
-    .happy-shopper { display: none; }
-    .card-payment-img { display: none; }
-    .why-cardinal-paragraph { position: relative; }
     
-/* ----------------------------------------------- */
-/* GET STARTED */
-/* ----------------------------------------------- */
+    
+
+    /* GET STARTED */
+    .section-get-started .btn-ghost { margin-top: -7px; }
     .section-get-started h2 {
         font-size: 90%;
         width: 95%;
     }
     
-    .section-get-started .btn-ghost {
-        margin-top: -7px;
-    }
-
+    
+    /* FORM */
+    .contact-form { width: 80%; }
+}
+    
+/* SCREEN WIDTH: 480px */
 @media only screen and (max-width: 480px) {
+    /* GENERAL */
     section { padding: 25px 0; }
-    .contact-form {
+    
+    /* NAVBAR */
+    .logo {
+        height: 75px;
+        margin-top: 2%;
+        margin-left: 15px;
+    }
+    /* HEADING */
+    .hero-text-box {
         width: 100%;
+        margin-top: 90px;
+        font-size: 90%;
+        padding: 0 2%;
     }
     
+    /* FORM */
+    .contact-form { width: 100%; }
+    
+    .contact-form .row {
+        padding-bottom: 5px;
+    }
     .submit-btn {
         text-align: center;
     }
     
+    /* GET STARTED */
     .section-get-started h2 {
-        font-size: 90%;
+        font-size: 85%;
         width: 90%;
     }
 
     
-    /* ----------------------------------------------- */
-/* AUTHENTICATION */
-/* ----------------------------------------------- */
+    
+    /* AUTHENTICATION */
     .info-box:first-child { 
         margin-top: 30px; 
         margin-left: 25px;
@@ -234,5 +254,28 @@
     .products-text {
         width: 100%;
         margin: 10px;
+    }
+    
+    /* PARTNERS */
+    .visa-visa-img {
+        height: 40px;
+        margin-left: 30vw;
+    }
+    
+    .cardinal-cardinal-img {
+        display: inline-block;
+        margin-left: 38vw;
+        height: 40px;
+    }
+    
+     /* CUSTOMERS */
+    .partner-photo img { transform: scale(0.8); }
+    .partners-showcase li { 
+        height: 100px; 
+        margin-left: -3px;;
+    }
+    .partner-photo {
+        width: 100px;
+        height: 95px;
     }
 }
