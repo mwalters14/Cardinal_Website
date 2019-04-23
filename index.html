@@ -14,17 +14,20 @@
     </head>
     <body>
         <header>
-            <nav>
-                <ul class="main-nav">
-                    <img src="resources/img/cardinal-logo.svg" alt="Cardinal | Visa logo" class="logo">
-                    <span class="main-nav-float">
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#authentication">We Authenticate</a></li>
-                        <li><a href="#partners">Partner with us</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#customers">Our Customers</a></li>
-                    </span>
-                </ul>
+            <nav class="nav-color">
+                <img src="resources/img/cardinal-logo.svg" alt="Cardinal | Visa logo" class="logo">
+                <div class="table">
+                    <ul class="main-nav" id="horizontal-list">
+                        <span class="main-nav-float js--main-nav">
+                            <li class="js--nav-list"><a href="#home">Home</a></li>
+                            <li><a href="#authentication">We Authenticate</a></li>
+                            <li  class="js--nav-list"><a href="#partners">Partner with us</a></li>
+                            <li  class="js--nav-list"><a href="#about">About</a></li>
+                            <li  class="js--nav-list"><a href="#customers">Our Customers</a></li>
+                        </span>
+                    </ul>
+                    <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
+                </div>
             </nav>
             <div class="hero-text-box" id="home">
                 <h1>Driving <br><span class="cardinal-visa-color">ecommerce</span> forward</h1>
@@ -199,7 +202,7 @@
                 <h2>We're happy to hear from you</h2>
             </div>
             <div class="row">
-                <form method="post" action="#" class="contact-form">
+                <form method="post" class="contact-form">
                     <div class="row">
                         <div class="col span-1-of-3">
                             <label for="name">Name</label>
@@ -221,7 +224,7 @@
                             <label for="find-us" id="find-us">How did you find us?</label>
                         </div>
                         <div class="col span-2-of-3">
-                            <select name="find-us">
+                            <select name="find-us" id="find-us">
                                 <option value="friends" selected>Friends</option>
                                 <option value="search">Search engine</option>
                                 <option value="ad">Advertisement</option>
@@ -242,7 +245,7 @@
                             <label>Drop us a line</label>
                         </div>
                         <div class="col span-2-of-3">
-                            <textarea name="message" placeholder="Your message"></textarea>
+                            <textarea id="message" name="message" placeholder="Your message"></textarea>
                         </div>
                     </div>
                     <div class="row">
@@ -250,10 +253,10 @@
                             <label>&nbsp;</label>
                         </div>
                         <div class="col span-2-of-3 submit-btn">
-                            <a class="btn btn-ghost hvr-grow-shadow" href="#">Submit<input type="submit" value=""></a>
+                            <input type="submit"  value="submit" name="submit"/>
+                            <button type="submit" class="btn btn-ghost hvr-grow-shadow">Submit</button>
                         </div>
                     </div>
-                    
                 </form>
                 
             </div>

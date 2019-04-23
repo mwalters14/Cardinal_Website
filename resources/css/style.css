@@ -121,24 +121,37 @@ section h2 {
 /* ----------------------------------------------- */
 /* Navigation */
 /* ----------------------------------------------- */
+.nav-color {
+    height: 70px;
+    background-color: #f4f4f4;
+    width: 100vw;
+    position: fixed;
+    z-index: 1;
+}
+
 .logo {
     height: 80px;
     width: auto;
     float: left;
     padding-bottom: 30px;
-    margin-left: 12%;
-    margin-top: 0.5%
+    margin-left: 10%;
+    margin-top: 0.5%;
+    z-index: 9999;
+
 }
 
-.main-nav {
-    overflow: hidden;
-    background-color: #f4f4f4;
-    list-style: none;
-    height: 70px;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    z-index:1;
+/* Mobile navi */
+.mobile-nav-icon {
+    float: right;
+    margin-top: 10px;
+    margin-right: 8%;
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-nav-icon i {
+    font-size: 250%;
+    color: #192061;
 }
 
 .main-nav-float {
@@ -159,11 +172,13 @@ section h2 {
     font-size: 80%;
     border-bottom: 2px solid transparent;
     padding-bottom: 5px;
+    z-index: 2;
 }
 
 .main-nav li a:hover,
 .main-nav li a:active {
     border-bottom: 3px solid #192061;
+    z-index: 3;
 }
 /* ----------------------------------------------- */
 /* HEADER */
@@ -632,10 +647,18 @@ input[type=submit] {
     display: none;
 }
 
-.submit-btn a {
+.submit-btn button {
     background-color: #192061;
+    height: 30px;
+    
 }
 
+.btn {
+    color: #fff;
+    font-size: 110%;
+    padding-bottom: 5px;
+    text-align: center;
+}
 /* ----------------------------------------------- */
 /* Animations */
 /* ----------------------------------------------- */

@@ -45,4 +45,53 @@ $(document).ready(function() {
     }, {
         offset: '65%'
     })
+    
+        /* Mobile navigation */
+    $('.js--nav-icon').click(function() {
+        var nav = $('.js--main-nav');
+        var icon = $('.js--nav-icon i');
+        
+        if (icon.hasClass('ion-navicon-round')) {
+            icon.addClass('ion-close-round');
+            icon.removeClass('ion-navicon-round');
+        } else {
+            icon.addClass('ion-navicon-round');
+            icon.removeClass('ion-close-round');
+        }
+        nav.slideToggle(200);
+    });
 });
+
+
+function get_name() {
+    var input_name = document.getElementById("name");
+    alert(input_name);
+}
+
+function get_email() {
+    var input_email = document.getElementById("email");
+    alert(input_email);
+}
+
+function get_find_us() {
+    var input_find_us = document.getElementById("find_us");
+    alert(input_find_us);
+}
+
+function get_news() {
+    var input_news = document.getElementById("news");
+    alert(input_news);
+}
+
+function get_message() {
+    var input_message = document.getElementById("message");
+    alert(input_message);
+}
+
+function form_controller() {
+    get_name;
+    get_email;
+    get_find_us;
+    get_news;
+    get_message
+}

@@ -92,6 +92,37 @@
     
     /* AUTHENTICATION */
     .info-box { height: 235px; }
+    
+    
+    /* NAVIGATION */
+    .main-nav-float {
+        margin-right: 60px;
+        margin-top: 15px;
+    }
+
+    .main-nav li {
+        display: inline-block;
+        margin-left: 25px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .main-nav-float { display: none; }
+    .mobile-nav-icon { display: inline-block; }
+    
+    /* NAVIGATION */
+    .main-nav-float {
+        background-color: #fff;
+        width: 100vw;
+        margin:0;
+        margin-top: -14px;
+    }
+
+    .main-nav li {
+        font-size: 102%;
+        padding-right: 10px;
+        padding-bottom: 10px;
+    }
 }
 
 /* SCREEN WIDTH: 767px */
@@ -107,6 +138,10 @@
         font-size: 90%;
         margin: 0px 10px;
         line-height: 27px;
+    }
+    
+    .main-nav li {
+        display: inherit;
     }
     
     /* AUTHENTICATION */
