@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Form Submission</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+    <body>
+        <h1>Result</h1>
+        <p th:text="'Name: ' + ${customer.name}" />
+        <p th:text="'Email: ' + ${customer.email}" />
+        <p th:text="'How did you find us?: ' + ${customer.find_us}" />
+        <p th:text="'Subscribe to our newsletter?: ' + ${customer.newsletter_subscription}" />
+        <p th:text="'Message: ' + ${customer.message}" />
+        <table>
+            <tr>
+                <a href="/main">Submit another message</a>
+            </tr>
+            <tr>
+                <a href="/customers">View Customers</a>
+            </tr>
+        </table>
+
+    </body>
+</html>

@@ -1,0 +1,7 @@
+siteHandler\Application.class
+siteHandler\Customer.class
+siteHandler\CustomerRepository.class
+siteHandler\formHandler.class
+siteHandler\CustomerServiceImplementation.class
+siteHandler\CustomerService.class
+siteHandler\Database.class
