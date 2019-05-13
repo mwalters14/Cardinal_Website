@@ -50,7 +50,7 @@ section {
 /* COLORS */
 .cardinal-red {
     color: #d63031;
-    font-weight: 320;
+    font-weight: 300;
 }
 
 .visa-blue {
@@ -84,6 +84,7 @@ section {
     font-size: 90%;
     line-height: 145%;
 }
+
 /* ----------------------------------------------- */
 /* HEADINGS */
 /* ----------------------------------------------- */
@@ -123,6 +124,7 @@ h2:after {
 section h2 {
     margin: auto;
 }
+
 /* ----------------------------------------------- */
 /* Navigation */
 /* ----------------------------------------------- */
@@ -189,6 +191,7 @@ section h2 {
     border-bottom: 3px solid #192061;
     z-index: 3;
 }
+
 /* ----------------------------------------------- */
 /* HEADER */
 /* ----------------------------------------------- */
@@ -211,10 +214,10 @@ header {
 .hero-text-box {
     position: absolute;
     width: 1140px;
-    top: 50%;
-    left: 56%;
+    top: 50vh;
+    left: 50vw;
     -webkit-transform: translate(-50%, -90%);
-    transform: translate(-51.5%, -85%);
+    transform: translate(-40%, -87%);
 }
 
 .center {
@@ -227,6 +230,47 @@ header {
     font-weight: 400;
     width: 800px;
     margin-left: 73px;
+}
+
+/* Arrow Animation */
+.arrow{
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    margin-top: 43vh;
+    transform: translate(-10%,-50%);
+}
+.arrow span a {
+    z-index: 9999;
+}
+.arrow span{
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-bottom: 5px solid #FCB70A;
+    border-right: 5px solid #FCB70A;
+    transform: rotate(45deg);
+    margin: -10px;
+    animation: animate 2s infinite;
+}
+.arrow span:nth-child(2){
+    animation-delay: -0.2s;
+}
+.arrow span:nth-child(3){
+    animation-delay: -0.4s;
+}
+@keyframes animate {
+    0%{
+        opacity: 0;
+        transform: rotate(45deg) translate(-15px,-15px);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: rotate(45deg) translate(15px,15px);
+    }
 }
 
 /* ----------------------------------------------- */
@@ -275,11 +319,6 @@ header {
     background-color: #FCB70A;
 }
 
-.submit-btn button {
-    background-color: #192061;
-    height: 30px;
-    
-}
 /* ----------------------------------------------- */
 /* AUTHENTICATION */
 /* ----------------------------------------------- */
@@ -517,8 +556,6 @@ header {
     margin-left: auto;
     -webkit-transform: scale(0.6);
     transform: scale(0.6);
-    
-    
 }
 
 .AE {
@@ -688,62 +725,4 @@ js--wp-3.animated{
   box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
-}
-
-.boxer {
-    position: absolute;
-    height: 300px;
-    color: #000;
-    width: 200px;
-    z-index: 9999;
-}
-div.arrow {
-    z-index: 2;
-	width: 6vmin;
-	height: 6vmin;
-	box-sizing: border-box;
-	position: absolute;
-	left: 50%;
-	top: 50%;
-    
-	transform: rotate(-45deg);
-	
-	&::before {
-		content: '';
-		width: 100%;
-		height: 100%;
-		border-width: .8vmin .8vmin 0 0;
-		border-style: solid;
-		border-color: #fafafa;
-		transition: .2s ease;
-		display: block;
-		transform-origin: 100% 0;
-	}
-
-	
-	&:after {
-		content: '';
-		float: left;
-		position: relative;
-		top: -100%;
-		width: 100%;
-		height: 100%;
-		border-width: 0 .8vmin 0 0;
-		border-style: solid;
-		border-color: #fafafa;
-		transform-origin: 100% 0;
-		transition:.2s ease;
-	}
-	
-	&:hover::after {
-		transform: rotate(45deg);
-		border-color: orange;
-		height: 120%;
-	}
-	&:hover::before {
-		border-color: orange;
-		transform: scale(.8);
-		
-	}
-	
 }

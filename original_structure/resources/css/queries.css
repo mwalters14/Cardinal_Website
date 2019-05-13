@@ -63,6 +63,18 @@
     /* GENERAL */
     section { padding: 30px 0}
     
+    .hero-text-box {
+        width: 100%;
+        margin-left: -6vw;
+    }
+    
+    .hero-text-box p {
+    
+    font-size: 80%;
+    
+    width: 500px;
+    margin-left: 2vw;
+}
     /* GET STARTED */
     .section-get-started { 
         height: 153px;
@@ -235,12 +247,18 @@
         margin-top: 2%;
         margin-left: 15px;
     }
+    
+    .center {
+        margin-left: 2vw;
+    }
+    
     /* HEADING */
     .hero-text-box {
+        left: 47%;
         width: 100%;
-        margin-top: 90px;
-        font-size: 90%;
-        padding: 0 2%;
+        font-size: 60%;
+        flex-shrink: 3;
+        white-space: nowrap;
     }
     
     /* FORM */

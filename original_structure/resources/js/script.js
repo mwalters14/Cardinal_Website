@@ -3,11 +3,11 @@ $(document).ready(function() {
     
    /* Scroll on buttons */
     $('.js--scroll-to-form').click(function () {
-       $('html, body').animate({scrollTop: $('.js--form').offset().top}, 1000); 
+       $('html, body').animate({scrollTop: $('.js--form').offset().top}, 3000); 
     });
     
     $('.js--scroll-to-partners').click(function () {
-       $('html, body').animate({scrollTop: $('.js--partners').offset().top-40}, 1000); 
+       $('html, body').animate({scrollTop: $('.js--partners').offset().top-40}, 3000); 
     });
     
     
@@ -20,7 +20,7 @@ $(document).ready(function() {
           if (target.length) {
             $('html,body').animate({
               scrollTop: target.offset().top-70
-            }, 1000);
+            }, 4000);
             return false;
           }
         }
@@ -95,3 +95,9 @@ function form_controller() {
     get_news;
     get_message
 }
+
+$(".arrow").on("click",function() {
+     $('html, body').animate({
+        scrollTop: $("#authentication").offset().top-68
+    }, 2000);
+});
